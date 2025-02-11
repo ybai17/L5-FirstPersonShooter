@@ -31,10 +31,16 @@ public class DementorBehavior : MonoBehaviour
 
         if (distanceFromPlayer > minimumDistance)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+            if (PlayerHealth.IsAlive)
+            {
+                transform.LookAt(target);
+                transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+            } else 
+            {
+                Invoke("DestroyDementor", 2);
+            }
+            
         }
-
-        transform.LookAt(target);
     }
 
     void OnTriggerEnter(Collider other)

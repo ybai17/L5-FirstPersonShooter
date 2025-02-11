@@ -37,7 +37,7 @@ public class FPSPlayerController : MonoBehaviour
 
             if (Input.GetButton("Jump")) {
                 moveDirection.y = Mathf.Sqrt(2 * jumpHeight * gravity);
-                Debug.Log("moveDirection.y = " + moveDirection.y);
+                //Debug.Log("moveDirection.y = " + moveDirection.y);
             } else {
                 moveDirection.y = 0;
             }
