@@ -2830,6 +2830,8 @@ MonoBehaviour:
   bulletRange: 20
   projectileSound: {fileID: 8300000, guid: ffe5b9b8656b2e24b995166b2eacd40a, type: 3}
   crosshairImage: {fileID: 921187852}
+  animationSpeed: 5
+  targetColorDementor: {r: 0.9962506, g: 1, b: 0, a: 0.6666667}
 --- !u!1 &1450854664 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2044857278259463294, guid: aabeeb18ce4e9e440b80f7b08ca7da2a, type: 3}

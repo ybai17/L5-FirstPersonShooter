@@ -3,18 +3,25 @@ using UnityEngine.UI;
 
 public class ShootProjectile : MonoBehaviour
 {
+    [Header("Projectile Settings")]
     public GameObject projectile;
     public float projectileSpeed = 100;
     public float bulletRange = 20;
 
     public AudioClip projectileSound;
 
+    [Header("Crosshair Settings")]
     public Image crosshairImage;
+    public float animationSpeed = 5; //how fast the reticle color changes
+    public Color targetColorDementor;
+    Color originalCrosshairColor;
+    Vector3 originalCrosshairScale;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        originalCrosshairColor = crosshairImage.color;
+        originalCrosshairScale = crosshairImage.transform.localScale;
     }
 
     // Update is called once per frame
@@ -27,6 +34,9 @@ public class ShootProjectile : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!crosshairImage)
+            return;
+
         CrosshairEffect();
     }
 
@@ -55,6 +65,8 @@ public class ShootProjectile : MonoBehaviour
     {
         RaycastHit hit;
 
+        var step = animationSpeed * Time.deltaTime;
+
         //camera position, forward direction from camera
         //out hit = the variable to store the output of the Raycast() call into
         //Math.Infinity is an option for the maxDistance argument
@@ -65,14 +77,18 @@ public class ShootProjectile : MonoBehaviour
             if (hit.collider.CompareTag("Dementor"))
             {
                 //animate crosshair
-                crosshairImage.color = Color.red;
-            } else {
-                crosshairImage.color = Color.cyan;
+                crosshairImage.color = Color.Lerp(crosshairImage.color, targetColorDementor, step);
+
+                crosshairImage.transform.localScale = Vector3.Lerp(crosshairImage.transform.localScale,
+                                                                    originalCrosshairScale / 2,
+                                                                    step);
+
             }
+        } else {
+            crosshairImage.color = Color.Lerp(crosshairImage.color, originalCrosshairColor, step);
 
-            
+                crosshairImage.transform.localScale = Vector3.Lerp(crosshairImage.transform.localScale, originalCrosshairScale, step);
         }
-
 
     }
 }
