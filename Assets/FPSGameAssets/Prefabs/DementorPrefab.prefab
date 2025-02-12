@@ -391,8 +391,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   moveSpeed: 1
-  minimumDistance: 1
+  randomSpeed: 0
+  minimumDistance: 0
   particleEffect: {fileID: 5587512461203684932, guid: 817d4fe37775b714a81274003a20d958, type: 3}
+  damageValue: 10
 --- !u!1 &5434458274968422684
 GameObject:
   m_ObjectHideFlags: 0
