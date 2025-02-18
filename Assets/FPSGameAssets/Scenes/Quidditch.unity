@@ -2003,7 +2003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.90980387, a: 0.3137255}
+  m_Color: {r: 1, g: 0.9529412, b: 0, a: 0.3137255}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3159,7 +3159,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 514d9528d1e17f8458944c956bd74310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 245195691443792652, guid: bae6561407929bf4e9074b514ce6a683, type: 3}
+  defaultProjectile: {fileID: 245195691443792652, guid: bae6561407929bf4e9074b514ce6a683, type: 3}
+  dementorProjectile: {fileID: 245195691443792652, guid: aa1fa2e8398df1446bbdedc1ec62519f, type: 3}
+  crateProjectile: {fileID: 245195691443792652, guid: e3793f1d8e2a8e241b1360b9590c04ac, type: 3}
   projectileSpeed: 200
   bulletRange: 20
   projectileSound: {fileID: 8300000, guid: ffe5b9b8656b2e24b995166b2eacd40a, type: 3}

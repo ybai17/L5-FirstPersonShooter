@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 887830544}
   m_Layer: 0
   m_Name: crate5_brk_LOD0
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

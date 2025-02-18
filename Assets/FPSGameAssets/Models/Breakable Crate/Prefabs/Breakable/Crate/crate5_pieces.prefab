@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 64947275966189218}
   m_Layer: 0
   m_Name: crate5_piece3
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 64102255519464972}
   m_Layer: 0
   m_Name: crate5_piece10
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 64240281500734112}
   m_Layer: 0
   m_Name: crate5_piece45
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 64675273234273472}
   m_Layer: 0
   m_Name: crate5_piece39
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 64101330758214438}
   m_Layer: 0
   m_Name: crate5_piece6
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 64896064925980018}
   m_Layer: 0
   m_Name: crate5_piece43
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 64958981789225628}
   m_Layer: 0
   m_Name: crate5_piece15
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -974,7 +974,7 @@ GameObject:
   - component: {fileID: 64176015935638810}
   m_Layer: 0
   m_Name: crate5_piece14
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1111,7 +1111,7 @@ GameObject:
   - component: {fileID: 64023535479592790}
   m_Layer: 0
   m_Name: crate5_piece36
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1248,7 +1248,7 @@ GameObject:
   - component: {fileID: 64490106086817096}
   m_Layer: 0
   m_Name: crate5_piece20
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1385,7 +1385,7 @@ GameObject:
   - component: {fileID: 64984934735606802}
   m_Layer: 0
   m_Name: crate5_piece34
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1522,7 +1522,7 @@ GameObject:
   - component: {fileID: 64255582648283702}
   m_Layer: 0
   m_Name: crate5_piece30
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1659,7 +1659,7 @@ GameObject:
   - component: {fileID: 64358666020378814}
   m_Layer: 0
   m_Name: crate5_piece11
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1796,7 +1796,7 @@ GameObject:
   - component: {fileID: 64797193367964024}
   m_Layer: 0
   m_Name: crate5_piece1
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1933,7 +1933,7 @@ GameObject:
   - component: {fileID: 64899541022512294}
   m_Layer: 0
   m_Name: crate5_piece9
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2070,7 +2070,7 @@ GameObject:
   - component: {fileID: 64977968616996972}
   m_Layer: 0
   m_Name: crate5_piece29
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2207,7 +2207,7 @@ GameObject:
   - component: {fileID: 64491225517329108}
   m_Layer: 0
   m_Name: crate5_piece18
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2344,7 +2344,7 @@ GameObject:
   - component: {fileID: 64028433601778018}
   m_Layer: 0
   m_Name: crate5_piece42
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2481,7 +2481,7 @@ GameObject:
   - component: {fileID: 64769099653988226}
   m_Layer: 0
   m_Name: crate5_piece41
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2618,7 +2618,7 @@ GameObject:
   - component: {fileID: 64008285710987706}
   m_Layer: 0
   m_Name: crate5_piece17
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2755,7 +2755,7 @@ GameObject:
   - component: {fileID: 64789086997647548}
   m_Layer: 0
   m_Name: crate5_piece4
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2892,7 +2892,7 @@ GameObject:
   - component: {fileID: 64694684266245830}
   m_Layer: 0
   m_Name: crate5_piece35
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3029,7 +3029,7 @@ GameObject:
   - component: {fileID: 64263705612286014}
   m_Layer: 0
   m_Name: crate5_piece24
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3166,7 +3166,7 @@ GameObject:
   - component: {fileID: 64439306699914736}
   m_Layer: 0
   m_Name: crate5_piece33
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3303,7 +3303,7 @@ GameObject:
   - component: {fileID: 64593454407598428}
   m_Layer: 0
   m_Name: crate5_piece28
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3440,7 +3440,7 @@ GameObject:
   - component: {fileID: 64447499257182336}
   m_Layer: 0
   m_Name: crate5_piece27
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3577,7 +3577,7 @@ GameObject:
   - component: {fileID: 64150404745635796}
   m_Layer: 0
   m_Name: crate5_piece19
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3714,7 +3714,7 @@ GameObject:
   - component: {fileID: 64688056202165932}
   m_Layer: 0
   m_Name: crate5_piece31
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3851,7 +3851,7 @@ GameObject:
   - component: {fileID: 64335825124771218}
   m_Layer: 0
   m_Name: crate5_piece22
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3987,7 +3987,7 @@ GameObject:
   - component: {fileID: -3350172198066940737}
   m_Layer: 0
   m_Name: crate5_pieces
-  m_TagString: Untagged
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4189,6 +4189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d4bb6baf322014ab959fe2192fd953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionForce: 100
+  explosionRadius: 5
 --- !u!1 &1520460072384296
 GameObject:
   m_ObjectHideFlags: 0
@@ -4204,7 +4206,7 @@ GameObject:
   - component: {fileID: 64934505880907552}
   m_Layer: 0
   m_Name: crate5_piece7
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4341,7 +4343,7 @@ GameObject:
   - component: {fileID: 64517136944510076}
   m_Layer: 0
   m_Name: crate5_piece26
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4478,7 +4480,7 @@ GameObject:
   - component: {fileID: 64119390524658016}
   m_Layer: 0
   m_Name: crate5_piece5
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4615,7 +4617,7 @@ GameObject:
   - component: {fileID: 64453023412457464}
   m_Layer: 0
   m_Name: crate5_piece25
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4752,7 +4754,7 @@ GameObject:
   - component: {fileID: 64158024313317340}
   m_Layer: 0
   m_Name: crate5_piece38
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4889,7 +4891,7 @@ GameObject:
   - component: {fileID: 64843684708541848}
   m_Layer: 0
   m_Name: crate5_piece13
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5026,7 +5028,7 @@ GameObject:
   - component: {fileID: 64226443125478010}
   m_Layer: 0
   m_Name: crate5_piece21
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5163,7 +5165,7 @@ GameObject:
   - component: {fileID: 64352363483912164}
   m_Layer: 0
   m_Name: crate5_piece23
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5300,7 +5302,7 @@ GameObject:
   - component: {fileID: 64912059113191154}
   m_Layer: 0
   m_Name: crate5_piece2
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5437,7 +5439,7 @@ GameObject:
   - component: {fileID: 64188324175615836}
   m_Layer: 0
   m_Name: crate5_piece32
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5574,7 +5576,7 @@ GameObject:
   - component: {fileID: 64730713345596222}
   m_Layer: 0
   m_Name: crate5_piece46
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5711,7 +5713,7 @@ GameObject:
   - component: {fileID: 64448448044791902}
   m_Layer: 0
   m_Name: crate5_piece40
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5848,7 +5850,7 @@ GameObject:
   - component: {fileID: 64383383431979024}
   m_Layer: 0
   m_Name: crate5_piece44
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5985,7 +5987,7 @@ GameObject:
   - component: {fileID: 64665084846249014}
   m_Layer: 0
   m_Name: crate5_piece16
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6122,7 +6124,7 @@ GameObject:
   - component: {fileID: 64633119818162810}
   m_Layer: 0
   m_Name: crate5_piece37
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6259,7 +6261,7 @@ GameObject:
   - component: {fileID: 64874526915391058}
   m_Layer: 0
   m_Name: crate5_piece12
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6396,7 +6398,7 @@ GameObject:
   - component: {fileID: 64184392290071492}
   m_Layer: 0
   m_Name: crate5_piece8
-  m_TagString: Reducto
+  m_TagString: Destructable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
