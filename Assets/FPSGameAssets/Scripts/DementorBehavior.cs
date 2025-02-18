@@ -9,6 +9,8 @@ public class DementorBehavior : MonoBehaviour
     public GameObject particleEffect;
     public int damageValue = 10;
 
+    public GameObject lootPrefab;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -62,6 +64,12 @@ public class DementorBehavior : MonoBehaviour
         {
             Instantiate(particleEffect, transform.position, transform.rotation);
         }
+
+        if (lootPrefab)
+        {
+            Instantiate(lootPrefab, transform.position, transform.rotation);
+        }
+
         Destroy(gameObject);
     }
 }
