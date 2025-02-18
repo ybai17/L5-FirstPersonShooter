@@ -43,7 +43,7 @@ public class ShootProjectile : MonoBehaviour
     void Shoot()
     {
         if (projectile) {
-            GameObject spell = Instantiate(projectile, transform.position, transform.rotation);
+            GameObject spell = Instantiate(projectile, transform.position + transform.forward, transform.rotation);
 
             Rigidbody rb = spell.GetComponent<Rigidbody>();
 
