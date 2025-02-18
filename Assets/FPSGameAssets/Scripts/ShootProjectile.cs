@@ -4,7 +4,10 @@ using UnityEngine.UI;
 public class ShootProjectile : MonoBehaviour
 {
     [Header("Projectile Settings")]
-    public GameObject projectile;
+    public GameObject defaultProjectile;
+    public GameObject dementorProjectile;
+    public GameObject crateProjectile;
+
     public float projectileSpeed = 100;
     public float bulletRange = 20;
 
@@ -13,15 +16,24 @@ public class ShootProjectile : MonoBehaviour
     [Header("Crosshair Settings")]
     public Image crosshairImage;
     public float animationSpeed = 5; //how fast the reticle color changes
-    public Color targetColorDementor;
-    Color originalCrosshairColor;
+    //public Color targetColorDementor;
+    //Color originalCrosshairColor;
     Vector3 originalCrosshairScale;
+
+    private GameObject currentProjectile;
+
+    Color currentCrosshairColor;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        originalCrosshairColor = crosshairImage.color;
+        //originalCrosshairColor = crosshairImage.color;
         originalCrosshairScale = crosshairImage.transform.localScale;
+
+        if (defaultProjectile)
+            currentProjectile = defaultProjectile;
+
+        UpdateCrosshairColor();
     }
 
     // Update is called once per frame
@@ -42,8 +54,8 @@ public class ShootProjectile : MonoBehaviour
 
     void Shoot()
     {
-        if (projectile) {
-            GameObject spell = Instantiate(projectile, transform.position + transform.forward, transform.rotation);
+        if (currentProjectile) {
+            GameObject spell = Instantiate(currentProjectile, transform.position + transform.forward, transform.rotation);
 
             Rigidbody rb = spell.GetComponent<Rigidbody>();
 
@@ -65,8 +77,6 @@ public class ShootProjectile : MonoBehaviour
     {
         RaycastHit hit;
 
-        var step = animationSpeed * Time.deltaTime;
-
         //camera position, forward direction from camera
         //out hit = the variable to store the output of the Raycast() call into
         //Math.Infinity is an option for the maxDistance argument
@@ -76,19 +86,36 @@ public class ShootProjectile : MonoBehaviour
 
             if (hit.collider.CompareTag("Dementor"))
             {
-                //animate crosshair
-                crosshairImage.color = Color.Lerp(crosshairImage.color, targetColorDementor, step);
-
-                crosshairImage.transform.localScale = Vector3.Lerp(crosshairImage.transform.localScale,
-                                                                    originalCrosshairScale / 2,
-                                                                    step);
-
+                currentProjectile = dementorProjectile;
+                UpdateCrosshairColor();
+                CrosshairAnimation(originalCrosshairScale / 2, currentCrosshairColor, animationSpeed);
+                
+            } else if (hit.collider.CompareTag("Destructable")) {
+                currentProjectile = crateProjectile;
+                UpdateCrosshairColor();
+                CrosshairAnimation(originalCrosshairScale / 2, currentCrosshairColor, animationSpeed);
             }
         } else {
-            crosshairImage.color = Color.Lerp(crosshairImage.color, originalCrosshairColor, step);
-
-                crosshairImage.transform.localScale = Vector3.Lerp(crosshairImage.transform.localScale, originalCrosshairScale, step);
+            currentProjectile = defaultProjectile;
+            UpdateCrosshairColor();
+            CrosshairAnimation(originalCrosshairScale, currentCrosshairColor, animationSpeed);
         }
+    }
 
+    void CrosshairAnimation(Vector3 targetScale, Color targetColor, float speed)
+    {
+        var step = speed * Time.deltaTime;
+
+        //animate crosshair
+        crosshairImage.color = Color.Lerp(crosshairImage.color, targetColor, step);
+
+        crosshairImage.transform.localScale = Vector3.Lerp(crosshairImage.transform.localScale,
+                                                            targetScale,
+                                                            step);
+    }
+
+    void UpdateCrosshairColor()
+    {
+        currentCrosshairColor = currentProjectile.GetComponent<Renderer>().sharedMaterial.color;
     }
 }
