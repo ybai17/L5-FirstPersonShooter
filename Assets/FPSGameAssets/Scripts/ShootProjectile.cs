@@ -72,7 +72,7 @@ public class ShootProjectile : MonoBehaviour
         //Math.Infinity is an option for the maxDistance argument
         if (Physics.Raycast(transform.position, transform.forward, out hit, bulletRange))
         {
-            Debug.Log("Hit something: " + hit.collider.name);
+            // Debug.Log("Hit something: " + hit.collider.name);
 
             if (hit.collider.CompareTag("Dementor"))
             {
